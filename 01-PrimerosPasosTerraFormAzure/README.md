@@ -14,10 +14,10 @@ En esta página https://www.terraform.io/docs/providers/azurerm/ puedes encontra
 
 A continuación detallo cada una de las partes del fichero main.tf
 
-Inline `resource "azurerm_resource_group" "main" {
+`resource "azurerm_resource_group" "main" {
   name     = "rcdevopsterraform-resources"
   location = "West Europe"
-}´
+}`
 
 
 
